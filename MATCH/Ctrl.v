@@ -31,6 +31,7 @@ module Match_Ctrl #(
 
     output [59:0] dout,
     output dout_valid,
+    output match_done,
     
     //DesNum_RP
     input wire [9:0] DesNum_RP,
@@ -213,7 +214,7 @@ always @(posedge clk) begin
                 state <= CLEAR; 
                 //Slave_valid <= 0;
                 if(core_enable != 4'b1111)
-                    state <= IDEL;
+                    state <= DONE;
             end
             CLEAR: begin
                 RR_addr <= 0;
@@ -227,10 +228,11 @@ always @(posedge clk) begin
                 state <= LOAD_RR; 
                 if(RL_addr==DesNum_RL) begin
                     core_enable <= 4'b0000;
-                    state <= IDEL;
+                    state <= DONE;
                 end
             end
             DONE: begin
+                state <= IDEL;
             end
             default: state <= UNK;
 
@@ -399,6 +401,6 @@ assign R_P_addr = RP_addr;
        
 assign dout = txFifo_din;
 assign dout_valid = txFifo_wr_en;
-        
+assign match_done = state == DONE;
 endmodule
 

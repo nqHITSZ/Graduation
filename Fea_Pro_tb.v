@@ -49,6 +49,16 @@ end
 
 wire [147:0] des_coor;
 wire feature_flag;
+wire [63:0] dout_data;
+wire done;
+
+wire [9:0]Lx,Ly,Rx,Ry,Px,Py;
+assign Lx = dout_data[19:10];
+assign Ly = dout_data[09:00];
+assign Rx = dout_data[59:50];
+assign Ry = dout_data[49:40];
+assign Px = dout_data[39:30];
+assign Py = dout_data[29:20];
 
 
 Fea_Pro #(
@@ -61,8 +71,9 @@ DUT
     .rst(rst),
     .img_din(din),
     .img_din_valid(din_valid),   
-    .dout_valid(dout_valid)
-
+    .dout_valid(dout_valid),
+    .dout_data(dout_data),
+    .done(done)
 );
 
 
@@ -152,8 +163,8 @@ end
 
 initial begin
 
-	#(4*430*1000);
-	$fclose(fpWD);
+    #(4*430*1000);
+    $fclose(fpWD);
     $stop;
 
 
@@ -185,7 +196,21 @@ initial begin
 end
 ///////////////////////////// WriteData end
 
+initial begin
+    DisplayData();
+end
 
+task DisplayData;
+begin
+    forever begin
+        @(posedge clk)
+            if(dout_valid) begin
+                //$display("hello\n");
+                $display( "(%3d,%3d)---(%3d,%3d)-----Parallax:(%3d,%3d)", Lx, Ly, Px, Py, Rx, Ry );
+            end
+    end
+end
+endtask
 
 
 task getData;

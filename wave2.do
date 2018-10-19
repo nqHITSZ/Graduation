@@ -6,7 +6,7 @@ add wave -noupdate /Fea_Pro_tb/DUT/img_din
 add wave -noupdate -color Salmon -itemcolor Salmon /Fea_Pro_tb/DUT/img_din_valid
 add wave -noupdate /Fea_Pro_tb/DUT/dout_valid
 add wave -noupdate /Fea_Pro_tb/DUT/dout_data
-add wave -noupdate /Fea_Pro_tb/DUT/dout_last
+add wave -noupdate /Fea_Pro_tb/DUT/done
 add wave -noupdate /Fea_Pro_tb/DUT/fsync
 add wave -noupdate /Fea_Pro_tb/DUT/fsync_L
 add wave -noupdate /Fea_Pro_tb/DUT/fsync_R

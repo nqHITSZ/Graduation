@@ -36,7 +36,7 @@ module Fea_Pro #
     //input fsync_R,
     output dout_valid,
     output [63:0] dout_data,
-    output dout_last
+    output done
 );
 wire fsync;
 wire fsync_L,fsync_R;
@@ -179,13 +179,15 @@ reg [9:0] DesNum_RP;
 reg [9:0] DesNum_RR;
 reg [9:0] DesNum_RL;
 
+wire [59:0] MC_q_dout;
 Match_Ctrl MC_q(
     .clk(clk),
     .rst(rst),
     .start(fsync),
     
-    .dout(dout),
+    .dout(MC_q_dout),
     .dout_valid(dout_valid),
+    .match_done(done),
     
     .DesNum_RP(DesNum_RP),
     .DesNum_RR(DesNum_RR),
@@ -199,7 +201,7 @@ Match_Ctrl MC_q(
     .R_P_addr(R_P_addr),
     .R_P_data(R_P_data)
     );
-
+assign dout_data = {6'b0,MC_q_dout};
 
 
 reg [4:0] des_num_state;
