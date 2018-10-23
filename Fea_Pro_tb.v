@@ -118,52 +118,52 @@ initial begin
 
     //getData("image_data.mem");
     
-    //frame 1
-    getData("slice.mem");
+    getData("./CONES/mem/1L.txt");
     #(PERIOD*100);
-    getData("slice.mem");
+    getData("./CONES/mem/1R.txt");
     #(PERIOD*100);
-    
-    //frame 2
-    getData("slice.mem");
+    getData("./CONES/mem/2L.txt");
     #(PERIOD*100);
-    getData("slice.mem");
+    getData("./CONES/mem/2R.txt");
     #(PERIOD*100);
-    
-    //frame 3
-    getData("slice.mem");
+    getData("./CONES/mem/3L.txt");
     #(PERIOD*100);
-    getData("slice.mem");
+    getData("./CONES/mem/3R.txt");
     #(PERIOD*100);
-    
-    //frame 4
-    getData("slice.mem");
+    getData("./CONES/mem/4L.txt");
     #(PERIOD*100);
-    getData("slice.mem");
+    getData("./CONES/mem/4R.txt");
     #(PERIOD*100);
-    
-    //frame 5
-    getData("slice.mem");
+    getData("./CONES/mem/5L.txt");
     #(PERIOD*100);
-    getData("slice.mem");
+    getData("./CONES/mem/5R.txt");
     #(PERIOD*100);
-    
-    
-    //frame 5
-    getData("slice.mem");
+    getData("./CONES/mem/6L.txt");
     #(PERIOD*100);
-    getData("slice.mem");
+    getData("./CONES/mem/6R.txt");
     #(PERIOD*100);
-    
-    //getData2();
-    #(PERIOD*2000);
+    getData("./CONES/mem/7L.txt");
+    #(PERIOD*100);
+    getData("./CONES/mem/7R.txt");
+    #(PERIOD*100);
+    getData("./CONES/mem/8L.txt");
+    #(PERIOD*100);
+    getData("./CONES/mem/8R.txt");
+    #(PERIOD*100);
+    getData("./CONES/mem/9L.txt");
+    #(PERIOD*100);
+    getData("./CONES/mem/9R.txt");
+    #(PERIOD*100);
+
+    #(PERIOD*200);
+    $display( "END");
     
 
 end
 
 initial begin
 
-    #(4*430*1000);
+    #(8*430*1000);
     $fclose(fpWD);
     $stop;
 
@@ -207,6 +207,9 @@ begin
             if(dout_valid) begin
                 //$display("hello\n");
                 $display( "(%3d,%3d)---(%3d,%3d)-----Parallax:(%3d,%3d)", Lx, Ly, Px, Py, Rx, Ry );
+            end
+            if(done) begin
+                $display("####################################################################");
             end
     end
 end

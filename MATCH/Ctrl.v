@@ -98,6 +98,8 @@ reg [4:1] core_enable;
 reg [1:0] match_core_done_both;
 
 ////FSM body BEGIN
+wire zero;
+assign zero = (DesNum_RL==0) || (DesNum_RR==0) || (DesNum_RP==0);//zero condition
 always @(posedge clk) begin
     if(rst) begin
         state <= IDEL;
@@ -124,8 +126,10 @@ always @(posedge clk) begin
                 Slave_valid <= 0;
                 Slave_valid_RR <= 0;
                 core_enable <= 0;
-                if(start == 1) 
-                    state <= CLEAR;
+                if(start == 1)
+                    state <= zero? DONE : CLEAR;
+                    //MC_WORKING don't support zero condition;
+                    //The zero condition must be consider to make sure this FSM works.
             end
             LOAD_RR: begin
                 coor_des_Main_1 <= R_L_data;

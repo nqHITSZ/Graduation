@@ -180,10 +180,18 @@ reg [9:0] DesNum_RR;
 reg [9:0] DesNum_RL;
 
 wire [59:0] MC_q_dout;
+reg MC_start;
+always @(posedge clk)
+    if(rst)
+        MC_start <= 0;
+    else
+        MC_start <= fsync; //to wait for DesNum to be update. for detail, refer the code in "des_num write logic"
+
+
 Match_Ctrl MC_q(
     .clk(clk),
     .rst(rst),
-    .start(fsync),
+    .start(MC_start),
     
     .dout(MC_q_dout),
     .dout_valid(dout_valid),
