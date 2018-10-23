@@ -91,27 +91,6 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	Det_Des
 
-} {} {}} F:/feature_process/Graduation/DETDES/derXX.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/derXX.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module derXX
-
-Top level modules:
-	derXX
-
-} {} {}} F:/feature_process/Graduation/DETDES/hessian_29f.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/hessian_29f.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module hessian_29f
-
-Top level modules:
-	hessian_29f
-
-} {} {}} F:/feature_process/Graduation/DETDES/ImgIntegral.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/ImgIntegral.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module ImgIntergral
-
-Top level modules:
-	ImgIntergral
-
 } {} {}} F:/feature_process/Graduation/MATCH/HDC.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/MATCH/HDC.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module HDC
@@ -120,33 +99,26 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	HDC
 
-} {} {}} F:/feature_process/Graduation/DETDES/derXY.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/derXY.v
+} {} {}} F:/feature_process/Graduation/DETDES/ImgIntegral.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/ImgIntegral.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module derXY
+-- Compiling module ImgIntergral
 
 Top level modules:
-	derXY
+	ImgIntergral
 
-} {} {}} F:/feature_process/Graduation/DETDES/mult_con3.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/mult_con3.v
+} {} {}} F:/feature_process/Graduation/DETDES/hessian_29f.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/hessian_29f.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module mult_con3
+-- Compiling module hessian_29f
 
 Top level modules:
-	mult_con3
+	hessian_29f
 
-} {} {}} F:/feature_process/Graduation/DETDES/regs3.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/regs3.v
+} {} {}} F:/feature_process/Graduation/DETDES/derXX.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/derXX.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module regs_3
+-- Compiling module derXX
 
 Top level modules:
-	regs_3
-
-} {} {}} F:/feature_process/Graduation/DETDES/RowBuf7.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/RowBuf7.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module RowBuf7
-
-Top level modules:
-	RowBuf7
+	derXX
 
 } {} {}} F:/feature_process/Graduation/DETDES/adder28_un.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/adder28_un.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -155,12 +127,33 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	adder28_un
 
-} {} {}} F:/feature_process/Graduation/DETDES/hessian_32f.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/hessian_32f.v
+} {} {}} F:/feature_process/Graduation/DETDES/RowBuf7.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/RowBuf7.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module hessian_32f
+-- Compiling module RowBuf7
 
 Top level modules:
-	hessian_32f
+	RowBuf7
+
+} {} {}} F:/feature_process/Graduation/DETDES/regs3.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/regs3.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module regs_3
+
+Top level modules:
+	regs_3
+
+} {} {}} F:/feature_process/Graduation/DETDES/mult_con3.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/mult_con3.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module mult_con3
+
+Top level modules:
+	mult_con3
+
+} {} {}} F:/feature_process/Graduation/DETDES/derXY.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/derXY.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module derXY
+
+Top level modules:
+	derXY
 
 } {} {}} F:/feature_process/Graduation/DETDES/ShiftRegisterBRAM.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/ShiftRegisterBRAM.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -169,12 +162,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	ShiftRegisterBRAM
 
-} {} {}} F:/feature_process/Graduation/DETDES/brief_compare.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/brief_compare.v
+} {} {}} F:/feature_process/Graduation/DETDES/hessian_32f.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/hessian_32f.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module brief_compare
+-- Compiling module hessian_32f
 
 Top level modules:
-	brief_compare
+	hessian_32f
 
 } {} {}} F:/feature_process/Graduation/DETDES/mult_21b.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/mult_21b.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -183,33 +176,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	mult_21b
 
+} {} {}} F:/feature_process/Graduation/DETDES/brief_compare.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/brief_compare.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module brief_compare
+
+Top level modules:
+	brief_compare
+
 } {} {}} F:/feature_process/Graduation/DETDES/non_max_suppersion.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/non_max_suppersion.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module non_max_suppersion
 
 Top level modules:
 	non_max_suppersion
-
-} {} {}} F:/feature_process/Graduation/DETDES/bram_sd.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/bram_sd.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module bram_sd
-
-Top level modules:
-	bram_sd
-
-} {} {}} F:/feature_process/Graduation/bram_sd.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/bram_sd.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module bram_sd
-
-Top level modules:
-	bram_sd
-
-} {} {}} F:/feature_process/Graduation/DETDES/regs7.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/regs7.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module regs7
-
-Top level modules:
-	regs7
 
 } {} {}} F:/feature_process/Graduation/DETDES/Accumulator.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/Accumulator.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -218,12 +197,26 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	Accumulator
 
-} {} {}} F:/feature_process/Graduation/MATCH/Ctrl.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/MATCH/Ctrl.v
+} {} {}} F:/feature_process/Graduation/DETDES/regs7.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/regs7.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Match_Ctrl
+-- Compiling module regs7
 
 Top level modules:
-	Match_Ctrl
+	regs7
+
+} {} {}} F:/feature_process/Graduation/bram_sd.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/bram_sd.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module bram_sd
+
+Top level modules:
+	bram_sd
+
+} {} {}} F:/feature_process/Graduation/DETDES/bram_sd.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/bram_sd.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module bram_sd
+
+Top level modules:
+	bram_sd
 
 } {} {}} F:/feature_process/Graduation/Fea_Pro_tb.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/Fea_Pro_tb.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -232,19 +225,12 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	Fea_Pro_tb
 
-} {} {}} F:/feature_process/Graduation/DETDES/CoordinateGen.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/CoordinateGen.v
+} {} {}} F:/feature_process/Graduation/MATCH/Ctrl.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/MATCH/Ctrl.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module CoordinateGen
+-- Compiling module Match_Ctrl
 
 Top level modules:
-	CoordinateGen
-
-} {} {}} F:/feature_process/Graduation/DETDES/DescriptorGenerate.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/DescriptorGenerate.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module DescriptorGenerate
-
-Top level modules:
-	DescriptorGenerate
+	Match_Ctrl
 
 } {} {}} F:/feature_process/Graduation/DETDES/RowBuf49.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/RowBuf49.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -253,26 +239,26 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	RowBuf49
 
-} {} {}} F:/feature_process/Graduation/Fea_Pro.v {1 {vlog -work work -vopt -stats=none {F:\feature_process\Graduation\Fea_Pro.v}
+} {} {}} F:/feature_process/Graduation/DETDES/DescriptorGenerate.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/DescriptorGenerate.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module DescriptorGenerate
+
+Top level modules:
+	DescriptorGenerate
+
+} {} {}} F:/feature_process/Graduation/DETDES/CoordinateGen.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/CoordinateGen.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module CoordinateGen
+
+Top level modules:
+	CoordinateGen
+
+} {} {}} F:/feature_process/Graduation/Fea_Pro.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/Fea_Pro.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 -- Compiling module Fea_Pro
 
 Top level modules:
 	Fea_Pro
-
-} {} {}} F:/feature_process/Graduation/Ram_Ctrl.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/Ram_Ctrl.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module Ram_Ctrl
-
-Top level modules:
-	Ram_Ctrl
-
-} {} {}} F:/feature_process/Graduation/DETDES/fifo.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/fifo.v
-Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module fifo
-
-Top level modules:
-	fifo
 
 } {} {}} F:/feature_process/Graduation/DETDES/sub28.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/sub28.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -281,19 +267,19 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	sub28
 
-} {} {}} F:/feature_process/Graduation/DETDES/detH_29f.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/detH_29f.v
+} {} {}} F:/feature_process/Graduation/DETDES/fifo.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/fifo.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module detH_29f
+-- Compiling module fifo
 
 Top level modules:
-	detH_29f
+	fifo
 
-} {} {}} F:/feature_process/Graduation/DETDES/rowBuf.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/rowBuf.v
+} {} {}} F:/feature_process/Graduation/Ram_Ctrl.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/Ram_Ctrl.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module rowBuf
+-- Compiling module Ram_Ctrl
 
 Top level modules:
-	rowBuf
+	Ram_Ctrl
 
 } {} {}} F:/feature_process/Graduation/DETDES/window49.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/window49.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -302,12 +288,26 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	window49
 
-} {} {}} F:/feature_process/Graduation/DETDES/hessian8Scales.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/hessian8Scales.v
+} {} {}} F:/feature_process/Graduation/DETDES/rowBuf.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/rowBuf.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module hessian8Scales
+-- Compiling module rowBuf
 
 Top level modules:
-	hessian8Scales
+	rowBuf
+
+} {} {}} F:/feature_process/Graduation/DETDES/detH_29f.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/detH_29f.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module detH_29f
+
+Top level modules:
+	detH_29f
+
+} {} {}} F:/feature_process/Graduation/DETDES/sub48.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/sub48.v
+Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+-- Compiling module sub_48b
+
+Top level modules:
+	sub_48b
 
 } {} {}} F:/feature_process/Graduation/DETDES/regs49.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/regs49.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
@@ -316,11 +316,11 @@ Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
 Top level modules:
 	regs49
 
-} {} {}} F:/feature_process/Graduation/DETDES/sub48.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/sub48.v
+} {} {}} F:/feature_process/Graduation/DETDES/hessian8Scales.v {1 {vlog -work work -vopt -stats=none F:/feature_process/Graduation/DETDES/hessian8Scales.v
 Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
--- Compiling module sub_48b
+-- Compiling module hessian8Scales
 
 Top level modules:
-	sub_48b
+	hessian8Scales
 
 } {} {}}

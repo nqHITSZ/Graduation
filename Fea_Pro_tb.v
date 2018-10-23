@@ -63,7 +63,9 @@ assign Py = dout_data[29:20];
 
 Fea_Pro #(
     .Img_Height(100),//image height
-    .Img_Width(120)//image width
+    .Img_Width(120),//image width
+    .Surf_Threshold(32'h64000),
+    .Hamming_Threshold(125)
 )
 DUT
 (

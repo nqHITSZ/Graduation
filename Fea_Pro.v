@@ -188,7 +188,10 @@ always @(posedge clk)
         MC_start <= fsync; //to wait for DesNum to be update. for detail, refer the code in "des_num write logic"
 
 
-Match_Ctrl MC_q(
+Match_Ctrl #(
+    .Match_Threshold(Hamming_Threshold)
+)
+MC_q(
     .clk(clk),
     .rst(rst),
     .start(MC_start),
